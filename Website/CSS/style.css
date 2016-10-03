@@ -1,0 +1,96 @@
+html, body{
+  height: 100%;
+}  
+body {
+	font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+	color: #fff;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.cell_wrap {
+	height: 600px;
+  width: 100%
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  max-width: 900px;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.blue.left_col{
+  width: 30%;
+}
+.left, .right {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.blue > .left{
+  width: 60%;
+
+}
+.blue > .right{
+  width: 40%;
+}
+.blue.right_col{
+  width: 70%;
+}
+.yellow, .white > .left_col{
+  width: 70%;
+}
+.yellow, .white > .right_col{
+  width: 30%;
+}
+.cell {
+  max-width: 800px;
+}
+.body {
+  max-width: 500px;
+}
+.body p {
+  margin: 0;
+}
+.subtitle{
+  align-items: stretch;
+  top:0;
+  margin-right: 20px; 
+}
+.subtitle h1{
+  margin: 0;
+}
+.white {
+	color: #000;
+	background-color: #fff;
+}
+.grey {
+  background-color: #c5c5c5;
+}
+.yellow {
+  color: #000;
+	background-color: #ffff00;
+}
+.blue{
+	background-color: #0055b7;
+}
+
+@media screen and (max-device-height: 768px) {
+    .cell{
+		height: 768px;
+	}
+}

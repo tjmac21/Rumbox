@@ -9,7 +9,22 @@ body {
 	margin: 0;
 	padding: 0;
 }
+#header   {
+  display: flex;
+}
+#header img {
+  float: left;
+  height: 35px;
+  margin: 5px 20px;
 
+}
+#logo_name {
+  font-size: 1.5em;
+  color: #ffb85f;
+} 
+#logo_name span {
+  vertical-align: middle;
+}
 .cell_wrap {
 	height: 600px;
   width: 100%
@@ -51,10 +66,10 @@ body {
 .blue.right_col{
   width: 70%;
 }
-.yellow, .white > .left_col{
+.yellow > .left_col, .white > .left_col{
   width: 70%;
 }
-.yellow, .white > .right_col{
+.yellow > .right_col, .white > .right_col{
   width: 30%;
 }
 .cell {
